@@ -39,28 +39,28 @@ Includes functionality to fetch HTML content from a given URL and build an eleme
 
 > How to Use
 HTML Parsing: Use the Load function to fetch HTML content from a URL:
-** var html = await Load("https://example.com");
+**var html = await Load("https://example.com");
 
 Building an HTML Tree: Use the BuildHtmlTree function to create a tree from the fetched HTML:
-** HtmlElement root = BuildHtmlTree(html);
+**HtmlElement root = BuildHtmlTree(html);
 
 Finding Elements: Use the FindElements method with a Selector to find elements that meet specific criteria:
-** var selector = Selector.ParseSelector("div .class-name");
-var matchingElements = root.FindElements(selector);
+**var selector = Selector.ParseSelector("div .class-name");
+**var matchingElements = root.FindElements(selector);
 
 Printing the HTML Tree: Use the PrintHtmlTree function to print the tree to the console:
-** PrintHtmlTree(root, 0);
+**PrintHtmlTree(root, 0);
 
 ---
 > Technologies Used:
 
-C# and .NET Framework for development
-HTTPClient for fetching HTML content
-Regex for parsing HTML tags and attributes
-Recursive algorithms for searching and traversing the HTML tree
+**C# and .NET Framework for development
+**HTTPClient for fetching HTML content
+**Regex for parsing HTML tags and attributes
+**Recursive algorithms for searching and traversing the HTML tree
 
 ---
-Author
-This project was developed by Michal Mazuz.
+> Author
+**This project was developed by Michal Mazuz.
 
 
