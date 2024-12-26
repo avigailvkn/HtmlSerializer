@@ -39,10 +39,10 @@ Includes functionality to fetch HTML content from a given URL and build an eleme
 
 > How to Use
 HTML Parsing: Use the Load function to fetch HTML content from a URL:
-**var html = await Load("https://example.com");
+var html = await Load("https://example.com");
 
 Building an HTML Tree: Use the BuildHtmlTree function to create a tree from the fetched HTML:
-**HtmlElement root = BuildHtmlTree(html);
+HtmlElement root = BuildHtmlTree(html);**
 
 Finding Elements: Use the FindElements method with a Selector to find elements that meet specific criteria:
 **var selector = Selector.ParseSelector("div .class-name");
