@@ -60,7 +60,6 @@ PrintHtmlTree(root, 0);
 4. Recursive algorithms for searching and traversing the HTML tree
 
 ---
-> Author
-**This project was developed by Michal Mazuz.
+> Author: This project was developed by Michal Mazuz.
 
 
